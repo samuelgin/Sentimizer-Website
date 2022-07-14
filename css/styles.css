@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Nunito", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Nunito", cursive;
+  color: #937DC2;
+}
+
+h2 {
+  margin: 50px auto 0 auto;
+  font-size: 2.5rem;
+  font-family: "Nunito", cursive;
+  font-weight: normal;
+  color: #937DC2;
+}
+
+h3 {
+  font-family: "Nunito", cursive;
+  color: #937DC2;
+}
+
+a {
+  color: #937DC2;
+  font-family: "Nunito", cursive;
+}
+
+a:hover {
+  color: #937DC2;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #937DC2 6px;
+  border-bottom: none;
+  width: 4%
+}

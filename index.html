@@ -1,23 +1,154 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Sentimizer</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Sentimizer - Smart Diary</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="middle-container">
-    <div>
-      <h1>Sentimizer</h1>
-      <h4>Optimize Your Life - Your smart diary and mood tracker</h4>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Sentimizer</a>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Not Just Another Mood Tracker</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download Available Monday</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/start_iphone.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-book fa-4x"></i>
+          <h3 class="feature-title">Smart Diary & Mood Tracker</h3>
+          <p>Save important activities and how you feel after doing them.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-smile fa-4x"></i>
+          <h3 class="feature-title">Recommendations based on your moods</h3>
+          <p>Sentimizer will recommend you to do activities that boost your mood and productivity, based on advanced Machine Learning computations.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-chart-line fa-4x"></i>
+          <h3 class="feature-title">Detailed Statistics</h3>
+          <p>View statistics about your mood trend and get to know how different activities influence it.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- screenshots -->
+
+  <section class="colored-section" id="screenshots">
+
+    <div id="screenshot-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img class="screenshot-image" src="images/start_iphone.png" alt="statistics iphone">
+          <h2 class="screenshot-text">Start.</h2>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="screenshot-image" src="images/add_iphone.png" alt="statistics iphone">
+          <h2 class="screenshot-text">Add.</h2>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="screenshot-image" src="images/statistics_iphone.png" alt="statistics iphone">
+          <h2 class="screenshot-text">Statistics.</h2>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="screenshot-image" src="images/calendar_iphone.png" alt="calendar iphone">
+          <h2 class="screenshot-text">Calendar.</h2>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="screenshot-image" src="images/settings_iphone.png" alt="settings iphone">
+          <h2 class="screenshot-text">Settings.</h2>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#screenshot-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#screenshot-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section-dark" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Download This Monday.</h3>
+      <!-- <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button> -->
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <p>© Copyright 2022 Samuel Ginsberg</p>
+      <p>Support and Feedback: samuel.ginsberg@t-online.de</p>
       <a href="privacy.html">Privacy Policy</a>
-      <p>Support: samuel.ginsberg@t-online.de</p>
-  </div>
+    </div>
+  </footer>
+
+
 </body>
 
 </html>

@@ -124,6 +124,11 @@ p {
 }
 
 .screenshot-image {
-  width: 20%;
+  width: 15rem;
+  margin: 20px;
+}
+
+.logo {
+  width: 5rem;
   margin: 20px;
 }

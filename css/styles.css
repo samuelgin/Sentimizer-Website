@@ -115,7 +115,7 @@ p {
   color: #42BBB7;
 }
 
-/* screenshot Section */
+/* Screenshot Section */
 
 #screenshots {
   background-color: #42BBB7;
@@ -130,6 +130,8 @@ p {
   width: 15rem;
   margin: 20px;
 }
+
+/* Call To Action  */
 
 .logo {
   width: 5rem;

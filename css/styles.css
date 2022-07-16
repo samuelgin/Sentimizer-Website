@@ -30,7 +30,8 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 7% 5%;
+  max-width: 1500px;
 }
 
 /* Navigation Bar */
@@ -77,7 +78,8 @@ p {
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 5% 7%;
+  max-width: 1000px;
 }
 
 /* Title Image */
@@ -86,7 +88,8 @@ p {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 30%;
+  right: 20%;
+  top: 60px;
 }
 
 /* Features Section */
@@ -95,8 +98,21 @@ p {
   position: relative;
 }
 
-.feature-title {
-  font-size: 1.5rem;
+
+
+
+/* Tablet:768px. */
+@media (min-width: 768px) {
+  .feature-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile :320px. */
+@media (max-width: 767px) {
+  .feature-title {
+    font-size: 2.5rem;
+  }
 }
 
 .feature-box {
